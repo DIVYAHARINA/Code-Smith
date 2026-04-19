@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login System</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Login</h1>
+      <p class="subtitle">Choose role and sign in</p>
+
+      <form id="loginForm">
+        <label for="role">Login Type</label>
+        <select id="role" required>
+          <option value="student">Student</option>
+          <option value="admin">Admin</option>
+        </select>
+
+        <label for="username">Username</label>
+        <input id="username" type="text" placeholder="Enter username" required />
+
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Enter password" required />
+
+        <button type="submit">Login</button>
+      </form>
+
+      <p id="message" class="message"></p>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login System</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="card">
+        <h1>Login</h1>
+        <p class="subtitle">Choose role and sign in</p>
+
+        <form id="loginForm">
+          <label for="role">Login Type</label>
+          <select id="role" required>
+            <option value="student">Student</option>
+            <option value="admin">Admin</option>
+          </select>
+
+          <label for="username">Username</label>
+          <input id="username" type="text" placeholder="Enter username" required />
+
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Enter password" required />
+
+          <button type="submit">Login</button>
+        </form>
+
+        <p id="message" class="message"></p>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+  </html>
