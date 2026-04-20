@@ -1108,6 +1108,22 @@
       "currentRound": 3,
       "completedQuestions": [],
       "isOnline": false
+    },
+    {
+      "id": "",
+      "userId": "fdac378b-b137-4c90-8685-35965dded050",
+      "username": "dada",
+      "score": 0,
+      "quizScore": 0,
+      "debugScore": 0,
+      "round3Score": 0,
+      "violations": 0,
+      "isLocked": false,
+      "isFullscreen": true,
+      "isQualified": true,
+      "currentRound": 3,
+      "completedQuestions": [],
+      "isOnline": false
     }
   ],
   "users": [
@@ -1579,12 +1595,25 @@
       "round3Score": 0,
       "roundScores": {},
       "completedQuestions": []
+    },
+    {
+      "id": "fdac378b-b137-4c90-8685-35965dded050",
+      "username": "dada",
+      "role": "user",
+      "violations": 0,
+      "isLocked": false,
+      "totalScore": 0,
+      "quizScore": 0,
+      "debugScore": 0,
+      "round3Score": 0,
+      "roundScores": {},
+      "completedQuestions": []
     }
   ],
   "state": {
-    "status": "waiting",
-    "currentRound": 3,
-    "startTime": 1775718611769,
+    "status": "active",
+    "currentRound": 1,
+    "startTime": 1776697896280,
     "round1Duration": 1200,
     "round2Duration": 2400,
     "round3Duration": 1200,
